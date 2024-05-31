@@ -25,6 +25,10 @@ Una vez que hayas instalado las dependencias, ejecuta el siguiente comando para 
 python generador_compose.py
 ```
 
-
 El script solicitará los datos necesarios, como los nombres de los contenedores, las variables de entorno y los nombres de host. Una vez que hayas proporcionado esta información, se generará un archivo docker-compose.yml personalizado y se iniciará Docker Compose.
+
+## Auto Generador PrestaShop
+
+Si quiere generar un compose para Prestashop, accede al siguiente enlace: [PrestaShopGitHub](https://github.com/dgilab/AutoGen_PrestaShop_docker)
+
 

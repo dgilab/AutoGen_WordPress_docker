@@ -8,7 +8,7 @@ class PopupForm(tk.Tk):
         super().__init__()
 
         self.title("Formulario Docker Compose")
-        self.geometry("400x600")
+        self.geometry("500x600")
 
         self.entries = {}
         self.values = {}
@@ -23,8 +23,8 @@ class PopupForm(tk.Tk):
 
         fields = [
             "Nombre del contenedor para MySQL",
-            "Nombre del contenedor para Wordpress",
-            "Nombre del contenedor para PhpMyAdmin",
+            "Nombre del contenedor para Wordpress puerto(8080)",
+            "Nombre del contenedor para PhpMyAdmin puerto(8081)",
             "Nombre de usuario para MySQL",
             "Contraseña para el usuario de MySQL",
             "Nombre de la Base de datos",
